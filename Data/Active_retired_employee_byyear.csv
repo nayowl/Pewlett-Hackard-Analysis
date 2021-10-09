@@ -1,0 +1,147 @@
+year_retired,dept_name,titles,count
+1,Customer Service,Assistant Engineer,3
+1,Customer Service,Engineer,53
+1,Customer Service,Senior Engineer,112
+1,Customer Service,Senior Staff,789
+1,Customer Service,Staff,245
+1,Customer Service,Technique Leader,21
+1,Development,Assistant Engineer,122
+1,Development,Engineer,940
+1,Development,Senior Engineer,2749
+1,Development,Senior Staff,70
+1,Development,Staff,24
+1,Development,Technique Leader,361
+1,Finance,Senior Staff,670
+1,Finance,Staff,199
+1,Human Resources,Senior Staff,730
+1,Human Resources,Staff,235
+1,Marketing,Senior Staff,762
+1,Marketing,Staff,242
+1,Production,Assistant Engineer,105
+1,Production,Engineer,839
+1,Production,Senior Engineer,2447
+1,Production,Senior Staff,98
+1,Production,Staff,28
+1,Production,Technique Leader,330
+1,Quality Management,Assistant Engineer,34
+1,Quality Management,Engineer,247
+1,Quality Management,Senior Engineer,665
+1,Quality Management,Technique Leader,87
+1,Research,Assistant Engineer,5
+1,Research,Engineer,58
+1,Research,Manager,1
+1,Research,Senior Engineer,165
+1,Research,Senior Staff,651
+1,Research,Staff,197
+1,Research,Technique Leader,18
+1,Sales,Senior Staff,2065
+1,Sales,Staff,614
+2,Customer Service,Assistant Engineer,7
+2,Customer Service,Engineer,46
+2,Customer Service,Senior Engineer,131
+2,Customer Service,Senior Staff,889
+2,Customer Service,Staff,271
+2,Customer Service,Technique Leader,12
+2,Development,Assistant Engineer,123
+2,Development,Engineer,1044
+2,Development,Senior Engineer,2873
+2,Development,Senior Staff,88
+2,Development,Staff,39
+2,Development,Technique Leader,409
+2,Finance,Senior Staff,753
+2,Finance,Staff,207
+2,Human Resources,Senior Staff,773
+2,Human Resources,Staff,238
+2,Marketing,Senior Staff,894
+2,Marketing,Staff,251
+2,Production,Assistant Engineer,123
+2,Production,Engineer,908
+2,Production,Senior Engineer,2548
+2,Production,Senior Staff,82
+2,Production,Staff,27
+2,Production,Technique Leader,392
+2,Quality Management,Assistant Engineer,29
+2,Quality Management,Engineer,265
+2,Quality Management,Senior Engineer,708
+2,Quality Management,Technique Leader,107
+2,Research,Assistant Engineer,6
+2,Research,Engineer,68
+2,Research,Senior Engineer,162
+2,Research,Senior Staff,761
+2,Research,Staff,221
+2,Research,Technique Leader,25
+2,Sales,Senior Staff,2169
+2,Sales,Staff,679
+3,Customer Service,Assistant Engineer,8
+3,Customer Service,Engineer,58
+3,Customer Service,Senior Engineer,148
+3,Customer Service,Senior Staff,918
+3,Customer Service,Staff,288
+3,Customer Service,Technique Leader,18
+3,Development,Assistant Engineer,110
+3,Development,Engineer,1098
+3,Development,Senior Engineer,2942
+3,Development,Senior Staff,89
+3,Development,Staff,30
+3,Development,Technique Leader,398
+3,Finance,Senior Staff,728
+3,Finance,Staff,242
+3,Human Resources,Senior Staff,780
+3,Human Resources,Staff,222
+3,Marketing,Senior Staff,821
+3,Marketing,Staff,278
+3,Production,Assistant Engineer,85
+3,Production,Engineer,971
+3,Production,Senior Engineer,2604
+3,Production,Senior Staff,116
+3,Production,Staff,17
+3,Production,Technique Leader,379
+3,Quality Management,Assistant Engineer,35
+3,Quality Management,Engineer,265
+3,Quality Management,Senior Engineer,748
+3,Quality Management,Technique Leader,122
+3,Research,Assistant Engineer,7
+3,Research,Engineer,48
+3,Research,Senior Engineer,171
+3,Research,Senior Staff,715
+3,Research,Staff,247
+3,Research,Technique Leader,29
+3,Sales,Senior Staff,2183
+3,Sales,Staff,694
+4,Customer Service,Assistant Engineer,4
+4,Customer Service,Engineer,31
+4,Customer Service,Senior Engineer,154
+4,Customer Service,Senior Staff,857
+4,Customer Service,Staff,244
+4,Customer Service,Technique Leader,13
+4,Development,Assistant Engineer,141
+4,Development,Engineer,1109
+4,Development,Senior Engineer,3080
+4,Development,Senior Staff,82
+4,Development,Staff,25
+4,Development,Technique Leader,422
+4,Finance,Senior Staff,733
+4,Finance,Staff,227
+4,Human Resources,Senior Staff,713
+4,Human Resources,Staff,234
+4,Marketing,Senior Staff,878
+4,Marketing,Staff,266
+4,Production,Assistant Engineer,113
+4,Production,Engineer,893
+4,Production,Senior Engineer,2590
+4,Production,Senior Staff,94
+4,Production,Staff,27
+4,Production,Technique Leader,356
+4,Quality Management,Assistant Engineer,27
+4,Quality Management,Engineer,274
+4,Quality Management,Senior Engineer,753
+4,Quality Management,Technique Leader,82
+4,Research,Assistant Engineer,3
+4,Research,Engineer,70
+4,Research,Senior Engineer,166
+4,Research,Senior Staff,707
+4,Research,Staff,215
+4,Research,Technique Leader,22
+4,Sales,Manager,1
+4,Sales,Senior Staff,2268
+4,Sales,Staff,663
