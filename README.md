@@ -27,7 +27,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
 ## 4 Results 
 1.	List of Retiring Employees
     
-    The list of retiring of employees is saved on retirement_titles table  and [retirement_titles.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv") as shown in Figure 2. Below is the information that can be retrieved from the table:
+    The list of retiring of employees is saved on retirement_titles table  and [retirement_titles.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv) as shown in Figure 2. Below is the information that can be retrieved from the table:
 
       * It consists of employee number, first name, last name, titles, from date and to date order by the employee number
       * This list shows employees which birth date between 01 January 1952 and 31 December 1955. 
@@ -43,7 +43,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
 
 2.	List of Retiring Employees with Last Titles
 
-    The list of retiring of employees with their last titles is saved on unique_titles table  and [unique_titles.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv") as shown in Figure 3. Below is the information that can be retrieved from the    table:
+    The list of retiring of employees with their last titles is saved on unique_titles table  and [unique_titles.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv) as shown in Figure 3. Below is the information that can be retrieved from the    table:
     * It consists of employee number, first name, last name, and their last titles order by the employee number
     * It has 90,398 rows data. 
     * Each employee only appears one with their last titles. Because there is no more data duplication, this list can be used as reference to know information about employee that will be retire in next few years. 
@@ -57,7 +57,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
 
 3.	Number of retiring employees group by titles
 
-    Table retiring_titles and [retiring_titles.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv") as shown in Figure 4 contains number of retiring employees group by titles. Below is the information that can be retrieved from the table:
+    Table retiring_titles and [retiring_titles.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv) as shown in Figure 4 contains number of retiring employees group by titles. Below is the information that can be retrieved from the table:
     * It consists of number of the employees and titles
     * It has 7 rows of data.
     * The largest number of employees that will be retiring are Senior Engineer with 29,414 people  , Meanwhile  only 2 Manager will be retiring for the next few years. 
@@ -71,7 +71,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
 
 4.	Mentorship Eligibility
 
-    The list of employees who are eligible for mentorship is saved on mentorship_eligibilty table and [mentorship_eligibilty.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv"). Below is the information that can be retrieved from the table:
+    The list of employees who are eligible for mentorship is saved on mentorship_eligibilty table and [mentorship_eligibilty.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv). Below is the information that can be retrieved from the table:
     * It consists of employee number, last name, birth date, from date, to date and titles of employees who were born between January 1, 1965 and December 31, 1965.
     * It has 1549 rows of data
   
@@ -87,7 +87,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
     
 Based on the list of retiring employees with last titles, there will be 90,398 employees that will be retiring with 72,548 employees active and 17,940 inactive. To know  the employees still active, the list of retiring employees will be joined to table dept_emp where to_date=”9999-01-01”. With total 240,124 employees that still working in Pewlett_Hackard until now, that means around 30.21% employees of Pewlett_Hackard will be retired in next few years. To better analyze how many roles to be filled, additional queries will be executed.
     
-The first one will be the roles to be filled per department and titles. Using the existing list of retiring employees, this list will be joined to table dept_emp to know the last department us DISTINCT ON. After the new list retrieved, this list will be filtered to show only the active employee and group by the department and titles. Figure 6 show the list of roles to be filled group by department and titles. The data will be saved to Active_retired_employee table and [Active_retired_employee_perDeptTitles.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/Active_retired_employee_perDeptTitles.csv").
+The first one will be the roles to be filled per department and titles. Using the existing list of retiring employees, this list will be joined to table dept_emp to know the last department us DISTINCT ON. After the new list retrieved, this list will be filtered to show only the active employee and group by the department and titles. Figure 6 show the list of roles to be filled group by department and titles. The data will be saved to Active_retired_employee table and [Active_retired_employee_perDeptTitles.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/Active_retired_employee_perDeptTitles.csv).
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/88597187/136645570-ebe0b5dd-c887-4992-afe1-7cfa320a255a.png"/>
@@ -96,7 +96,7 @@ The first one will be the roles to be filled per department and titles. Using th
   <sub>Figure 6 List of Roles to be Filled by Departments and Titles  </sub>
 </p>
    
-The second will be the roles to be filled by year retire, department and titles. The year retire is based on employees birth date year. For example, If the birth year is 1952 the value of year retire will be 1, means that the employee will retire in next year, if the birth year is 1953 the value will be 2 , means that the employee will retire in next 2 year. With this list, Pewlett-Hackard can be focused on prepare to fill the urgent role for employee that will retire in the next year and will have more time to filled the other role. Figure 7 show the list of Roles to be Filled by Year retire, departments, and titles. The data will be saved to Active_retired_employee_byyear and [Active_retired_employee_byyear.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/Active_retired_employee_byyear.csv").
+The second will be the roles to be filled by year retire, department and titles. The year retire is based on employees birth date year. For example, If the birth year is 1952 the value of year retire will be 1, means that the employee will retire in next year, if the birth year is 1953 the value will be 2 , means that the employee will retire in next 2 year. With this list, Pewlett-Hackard can be focused on prepare to fill the urgent role for employee that will retire in the next year and will have more time to filled the other role. Figure 7 show the list of Roles to be Filled by Year retire, departments, and titles. The data will be saved to Active_retired_employee_byyear and [Active_retired_employee_byyear.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/Active_retired_employee_byyear.csv).
    
 <p align="center">
     <img src="https://user-images.githubusercontent.com/88597187/136645603-e41dded6-5399-42ec-b945-fa19886facea.png"/>
@@ -108,7 +108,7 @@ The second will be the roles to be filled by year retire, department and titles.
 
 2. Qualified Employees 
 
-Based on the list of mentorship eligibility there are 1549 employees who are eligible. To know how many employees in the list group by their department and titles, additional queries added. By knowing how many qualified employees per department, every department can figure strategy to mentor new generation in their department. Figure 8 shows us the list of mentorship eligibility group by departments and titles. The data will be saved on mentorship_eligibility_dept_titles table and [mentorship_eligibility_dept_titles.csv]("https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility_dept_titles.csv")
+Based on the list of mentorship eligibility there are 1549 employees who are eligible. To know how many employees in the list group by their department and titles, additional queries added. By knowing how many qualified employees per department, every department can figure strategy to mentor new generation in their department. Figure 8 shows us the list of mentorship eligibility group by departments and titles. The data will be saved on mentorship_eligibility_dept_titles table and [mentorship_eligibility_dept_titles.csv](https://github.com/nayowl/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility_dept_titles.csv)
 
    
 <p align="center">
