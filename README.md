@@ -85,9 +85,9 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
 ## 5 Summary
 1. Roles to be Filled
     
-    Based on the list of retiring employees with last titles, there will be 90,398 employees that will be retiring with 72,548 employees active and 17,940 inactive. To know  the employees still active, the list of retiring employees will be joined to table dept_emp where to_date=”9999-01-01”. With total 240,124 employees that still working in Pewlett_Hackard until now, that means around 30.21% employees of Pewlett_Hackard will be retired in next few years. To better analyze how many roles to be filled, additional queries will be executed.
+Based on the list of retiring employees with last titles, there will be 90,398 employees that will be retiring with 72,548 employees active and 17,940 inactive. To know  the employees still active, the list of retiring employees will be joined to table dept_emp where to_date=”9999-01-01”. With total 240,124 employees that still working in Pewlett_Hackard until now, that means around 30.21% employees of Pewlett_Hackard will be retired in next few years. To better analyze how many roles to be filled, additional queries will be executed.
     
-    The first one will be the roles to be filled per department and titles. Using the existing list of retiring employees, this list will be joined to table dept_emp to know the last department us DISTINCT ON. After the new list retrieved, this list will be filtered to show only the active employee and group by the department and titles. Figure 6 show the list of roles to be filled group by department and titles. The data will be saved to Active_retired_employee table and Active_retired_employee_perDeptTitles.csv.
+The first one will be the roles to be filled per department and titles. Using the existing list of retiring employees, this list will be joined to table dept_emp to know the last department us DISTINCT ON. After the new list retrieved, this list will be filtered to show only the active employee and group by the department and titles. Figure 6 show the list of roles to be filled group by department and titles. The data will be saved to Active_retired_employee table and Active_retired_employee_perDeptTitles.csv.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/88597187/136645570-ebe0b5dd-c887-4992-afe1-7cfa320a255a.png"/>
@@ -96,7 +96,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
   <sub>Figure 6 List of Roles to be Filled by Departments and Titles  </sub>
 </p>
    
-   The second will be the roles to be filled by year retire, department and titles. The year retire is based on employees birth date year. For example, If the birth year is 1952 the value of year retire will be 1, means that the employee will retire in next year, if the birth year is 1953 the value will be 2 , means that the employee will retire in next 2 year. With this list, Pewlett-Hackard can be focused on prepare to fill the urgent role for employee that will retire in the next year and will have more time to filled the other role. Figure 7 show the list of Roles to be Filled by Year retire, departments, and titles. The data will be saved to Active_retired_employee_byyear and Active_retired_employee_byyear.csv.
+The second will be the roles to be filled by year retire, department and titles. The year retire is based on employees birth date year. For example, If the birth year is 1952 the value of year retire will be 1, means that the employee will retire in next year, if the birth year is 1953 the value will be 2 , means that the employee will retire in next 2 year. With this list, Pewlett-Hackard can be focused on prepare to fill the urgent role for employee that will retire in the next year and will have more time to filled the other role. Figure 7 show the list of Roles to be Filled by Year retire, departments, and titles. The data will be saved to Active_retired_employee_byyear and Active_retired_employee_byyear.csv.
    
 <p align="center">
     <img src="https://user-images.githubusercontent.com/88597187/136645603-e41dded6-5399-42ec-b945-fa19886facea.png"/>
@@ -106,10 +106,10 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
 </p>
 
 
-3. Qualified Employees 
+2. Qualified Employees 
 
-   Based on the list of mentorship eligibility there are 1549 employees who are eligible. To know how many employees in the list group by their department and titles, additional queries added. By knowing how many qualified employees per department, every department can figure strategy to mentor new generation in their department. Figure 8 shows us the list of mentorship eligibility group by departments and titles. The data will be saved on mentorship_eligibility_dept_titles table and mentorship_eligibility_dept_titles.csv
-   
+Based on the list of mentorship eligibility there are 1549 employees who are eligible. To know how many employees in the list group by their department and titles, additional queries added. By knowing how many qualified employees per department, every department can figure strategy to mentor new generation in their department. Figure 8 shows us the list of mentorship eligibility group by departments and titles. The data will be saved on mentorship_eligibility_dept_titles table and mentorship_eligibility_dept_titles.csv
+
    
 <p align="center">
     <img src="https://user-images.githubusercontent.com/88597187/136645644-39a50e35-6fc8-4829-9e6b-971f7f9364cb.png"/>
@@ -118,7 +118,7 @@ The Entity Relationship Diagram (ERD) shows in Figure 1 describe the relationshi
   <sub>Figure 8 List of Mentorship Eligibility Group by Department and Titles  </sub>
 </p>
 
-  Pewlett-Hackard has 166,027 next generation employees to be trained. With only 1549 mentor that will train them, Pewlett-Hackard will need to think how to train the next generation more efficient and effective with only limited resources and if needed they need to hire new talent to train and develop skills required to fill the position.
+Pewlett-Hackard has 166,027 next generation employees to be trained. With only 1549 mentor that will train them, Pewlett-Hackard will need to think how to train the next generation more efficient and effective with only limited resources and if needed they need to hire new talent to train and develop skills required to fill the position.
 
 <details>
            <summary>Count Next Generation Employees</summary>
